@@ -6,28 +6,28 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get About Us" do
-    get :About Us
+  test "should get AboutUs" do
+    get :AboutUs
     assert_response :success
   end
 
-  test "should get Program Services" do
-    get :Program Services
+  test "should get ProgramServices" do
+    get :ProgramServices
     assert_response :success
   end
 
-  test "should get Training/Events" do
-    get :Training/Events
+  test "should get Training_Events" do
+    get :Training_Events
     assert_response :success
   end
 
-  test "should get Make a Difference" do
-    get :Make a Difference
+  test "should get MakeaDifference" do
+    get :MakeaDifference
     assert_response :success
   end
 
-  test "should get contact Us" do
-    get :contact Us
+  test "should get contactUs" do
+    get :contactUs
     assert_response :success
   end
 

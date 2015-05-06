@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
-  
+
+
+  get 'static_pages/AboutUs'
+
+  get 'static_pages/ProgramServices'
+
+  get 'static_pages/Training_Events'
+
+  get 'static_pages/MakeaDifference'
+
+  get 'static_pages/contactUs'
 
   get 'static_pages/Home'
 

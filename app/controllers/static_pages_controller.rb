@@ -2,18 +2,18 @@ class StaticPagesController < ApplicationController
   def Home
   end
 
-  def About Us
+  def AboutUs
   end
 
-  def Program Services
+  def ProgramServices
   end
 
-  def Training/Events
+  def Training_Events
   end
 
-  def Make a Difference
+  def MakeaDifference
   end
 
-  def contact Us
+  def contactUs
   end
 end
